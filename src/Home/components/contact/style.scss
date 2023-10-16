@@ -1,6 +1,7 @@
 .contact-wrapper{
+     min-height: 75vh;
     position: relative;
-    margin-bottom: 12rem;
+    // margin-bottom: 12rem;
     .paralex{
          width: 80%;
          position: relative;
@@ -50,7 +51,7 @@
         backdrop-filter: blur(15px);
         position: absolute;
         width: 50%;
-        top: 70%;
+        top: 50%;
         left: 25%;
         border-radius: 5px;
         padding: 1rem;
@@ -58,7 +59,9 @@
 
         @media screen and (max-width:568px) {
             width: 90%;
-            left: 6%;
+            left: 5%;
+            top: 32%;
+            width: 95;
        }
         .input-area{
             width: 80%;
@@ -69,6 +72,8 @@
                 outline: none;
                 border: 1px solid rgb(85, 153, 85);
                 border-radius: 5px;
+                text-transform: capitalize;
+                font-weight: 700;
             }
         }
         .btn-container{

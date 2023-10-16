@@ -58,7 +58,7 @@ export const Menu = () => {
         >
           <figure>
             <img
-              src="https://img.freepik.com/free-photo/chicken-wings-barbecue-sweetly-sour-sauce-picnic-summer-menu-tasty-food-top-view-flat-lay_2829-6471.jpg?w=2000"
+              src="https://www.indianhealthyrecipes.com/wp-content/uploads/2021/05/khichdi-recipe.jpg"
               alt=""
             />
           </figure>
@@ -76,7 +76,6 @@ export const Menu = () => {
             </ul>
           </div>
         </motion.div>
-
         <motion.div
           className="items"
           initial={{ opacity: 0 }}
@@ -86,7 +85,7 @@ export const Menu = () => {
         >
           <figure>
             <img
-              src="https://www.spiceupthecurry.com/wp-content/uploads/2022/04/bang-bang-cauliflower-1.jpg"
+              src="https://www.holidify.com/images/cmsuploads/compressed/shutterstock_649541308_20191010160155.png"
               alt=""
             />
           </figure>
@@ -109,7 +108,7 @@ export const Menu = () => {
         >
           <figure>
             <img
-              src="https://v2s3z9v2.stackpathcdn.com/videos/2591/20-05-2019/YT_Crispy_Chicken__7L9U4CYS_crop_resize_1024x576.jpg"
+              src="https://www.licious.in/blog/wp-content/uploads/2020/12/Hyderabadi-chicken-Biryani.jpg"
               alt=""
             />
           </figure>
@@ -136,7 +135,7 @@ export const Menu = () => {
           <div className="items">
             <figure>
               <img
-                src="https://img.freepik.com/free-photo/chicken-wings-barbecue-sweetly-sour-sauce-picnic-summer-menu-tasty-food-top-view-flat-lay_2829-6471.jpg?w=2000"
+                src="https://www.foodandwine.com/thmb/fXGHiEv_cKMYfZvUMPoq_uQWRG0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Smoky-Sweet-Potatoes-With-Chorizo-Butter-FT-RECIPE1121-155da84b9f5349cbada35159ee8addef.jpg"
                 alt=""
               />
             </figure>
@@ -151,7 +150,7 @@ export const Menu = () => {
           <div className="items">
             <figure>
               <img
-                src="https://cookingfromheart.com/wp-content/uploads/2021/01/Veg-Tehri-3.jpg"
+                src="https://www.cactuslanguage.com/wp-content/uploads/2022/08/drinks-around-the-world.jpg"
                 alt=""
               />
             </figure>
@@ -167,7 +166,7 @@ export const Menu = () => {
           <div className="items">
             <figure>
               <img
-                src="https://www.spiceupthecurry.com/wp-content/uploads/2022/04/bang-bang-cauliflower-1.jpg"
+                src="https://www.flavourstreat.com/wp-content/uploads/2020/08/dal-khichdi-recipe-05.jpg"
                 alt=""
               />
             </figure>
@@ -185,7 +184,7 @@ export const Menu = () => {
           <div className="items">
             <figure>
               <img
-                src="https://v2s3z9v2.stackpathcdn.com/videos/2591/20-05-2019/YT_Crispy_Chicken__7L9U4CYS_crop_resize_1024x576.jpg"
+                src="https://assets.zeezest.com/images/PROD_A_1664167434483.jpg"
                 alt=""
               />
             </figure>

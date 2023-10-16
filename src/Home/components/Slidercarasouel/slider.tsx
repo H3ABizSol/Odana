@@ -5,7 +5,7 @@ import { SiZomato, SiSwiggy } from "react-icons/si";
 import { motion } from "framer-motion";
 import { easeInOut } from "framer-motion/dom";
 import biryani from "../../../assets/biryani.png";
-import image3 from "../../../assets/image3.png";
+import image2 from "../../../assets/image2.png";
 import khichadi from "../../../assets/khichadi.png";
 import { Link } from "react-router-dom";
 
@@ -123,7 +123,7 @@ export const Slider = () => {
           </div>
           <div className="right">
             <figure>
-              <img src={image3} alt="" />
+              <img src={image2} alt="" />
             </figure>
           </div>
         </div>

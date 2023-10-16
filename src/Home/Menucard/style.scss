@@ -9,7 +9,11 @@
             border:8px solid transparent;   
             border-image: url("https://img.freepik.com/premium-vector/menu-cover_672017-1576.jpg") 150 round;
             // padding: 2rem;
+             @media screen and (max-width:768px){
+                  width: 98%;
+             }
             img{
+
                 width: 100%;
                 height: 100%;
                 
@@ -25,6 +29,9 @@
             border:8px solid transparent;   
             border-image: url("https://img.freepik.com/premium-vector/menu-cover_672017-1576.jpg") 60 round;
             // padding: 2rem;
+            @media screen and (max-width:768px){
+                width: 98%;
+           }
             img{
                 width: 100%;
                 height: 100%;

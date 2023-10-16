@@ -166,6 +166,22 @@ export const Menu = () => {
           <div className="items">
             <figure>
               <img
+                src="https://www.spiceupthecurry.com/wp-content/uploads/2022/04/bang-bang-cauliflower-1.jpg"
+                alt=""
+              />
+            </figure>
+            <h3> veg statters</h3>
+            <div className="items-name">
+              <ul>
+                <li>Gobi 65</li>
+                <li>Paneer 65</li>
+                <li>Crispy Paneer Nuggets</li>
+              </ul>
+            </div>
+          </div>
+          <div className="items">
+            <figure>
+              <img
                 src="https://www.flavourstreat.com/wp-content/uploads/2020/08/dal-khichdi-recipe-05.jpg"
                 alt=""
               />

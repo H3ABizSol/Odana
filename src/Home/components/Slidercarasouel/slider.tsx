@@ -4,9 +4,10 @@ import "./style.scss";
 import { SiZomato, SiSwiggy } from "react-icons/si";
 import { motion } from "framer-motion";
 import { easeInOut } from "framer-motion/dom";
-import image1 from "../../../assets/mix veg theri.png";
+import biryani from "../../../assets/biryani.png";
 import image3 from "../../../assets/image3.png";
-import image4 from "../../../assets/image4.png";
+import khichadi from "../../../assets/khichadi.png";
+import { Link } from "react-router-dom";
 
 export const Slider = () => {
   const responsive = {
@@ -40,8 +41,13 @@ export const Slider = () => {
                 duration: 1.5,
               }}
             >
-              ENJOY YOUR FAVORITE FOOD WITH FAMILY
+              BIRYANI@ ₹299
             </motion.h3>
+            <div className="btn-container">
+              <Link to="/menucard">
+                <button>Direct Order 20% Discount</button>
+              </Link>
+            </div>
             <div className="links-food-app">
               <motion.a
                 href="https://www.zomato.com/ncr/odana-biryani-more-sector-72-noida"
@@ -85,13 +91,18 @@ export const Slider = () => {
             }}
           >
             <figure>
-              <img src={image1} alt="" />
+              <img src={biryani} alt="" />
             </figure>
           </motion.div>
         </div>
         <div className="slider-container">
           <div className="left">
-            <h3> GET BEST QUALITY FOOD FROM US</h3>
+            <h3>STARTING@ ₹179</h3>
+            <div className="btn-container">
+              <Link to="/menucard">
+                <button>Direct Order 20% Discount</button>
+              </Link>
+            </div>
             <div className="links-food-app">
               <a
                 href="https://www.zomato.com/ncr/odana-biryani-more-sector-72-noida"
@@ -118,7 +129,12 @@ export const Slider = () => {
         </div>
         <div className="slider-container">
           <div className="left">
-            <h3>THE HEALTHY FOOD FOR YOUR KIDS</h3>
+            <h3>Khichdi@ ₹249</h3>
+            <div className="btn-container">
+              <Link to="/menucard">
+                <button>Direct Order 20% Discount</button>
+              </Link>
+            </div>
             <div className="links-food-app">
               <a
                 href="https://www.zomato.com/ncr/odana-biryani-more-sector-72-noida"
@@ -138,7 +154,7 @@ export const Slider = () => {
 
           <div className="right">
             <figure>
-              <img src={image4} alt="" />
+              <img src={khichadi} alt="" />
             </figure>
           </div>
         </div>

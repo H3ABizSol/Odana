@@ -1,0 +1,35 @@
+.menu-card-wrapper{
+    // display: flex;
+    .first-page{
+        padding: 0.6rem 0;
+        display: flex;
+        justify-content: center;
+        figure{
+            width: 60%;
+            border:8px solid transparent;   
+            border-image: url("https://img.freepik.com/premium-vector/menu-cover_672017-1576.jpg") 150 round;
+            // padding: 2rem;
+            img{
+                width: 100%;
+                height: 100%;
+                
+            }
+        }
+    }
+    .second-page{
+        padding: 0.6rem 0;
+        display: flex;
+        justify-content: center;
+        figure{
+            width: 60%;
+            border:8px solid transparent;   
+            border-image: url("https://img.freepik.com/premium-vector/menu-cover_672017-1576.jpg") 60 round;
+            // padding: 2rem;
+            img{
+                width: 100%;
+                height: 100%;
+                
+            }
+        }
+    }
+}

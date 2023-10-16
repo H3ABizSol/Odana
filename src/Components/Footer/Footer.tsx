@@ -35,7 +35,7 @@ export const Footer = () => {
           </ul>
         </div>
         <div className="footer-details">
-          <ul>
+          {/* <ul>
             <li>veg theri</li>
 
             <li>veg statters</li>
@@ -43,7 +43,16 @@ export const Footer = () => {
             <li>non veg statterss</li>
 
             <li>regionl</li>
-          </ul>
+          </ul> */}
+          <a
+            title="View Anav Bedi's food journey on Zomato!"
+            href="https://www.zomato.com/users/anav-bedi-37176039"
+          >
+            <img
+              alt="View my food journey on Zomato!"
+              src="https://www.zomato.com/widgets/user_widget_img.php?user_id=37176039"
+            />
+          </a>
         </div>
         <div className="copyright">
           <p>© Copyright 2023, all right reserved H3A Business Solutions PVT</p>

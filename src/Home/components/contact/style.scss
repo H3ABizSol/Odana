@@ -7,39 +7,58 @@
          position: relative;
          margin: 0 auto;
          background-image: url("https://images.unsplash.com/photo-1542435503-956c469947f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80");
-         height: 55vh;
+        min-height: 60vh;
          background-repeat: no-repeat;
          background-size: cover;
          background-attachment: fixed;
          margin-top: 5rem;
          display: flex;
+         flex-direction: column;
          justify-content: center;
          align-items: center;
-         &::after{
+         gap: 0.6rem;
+          &::after{
             content: "";
             width: 100%;
             height: 100%;
             background-color: rgba(13, 13, 13, 0.855);
             position: absolute;
-            opacity: 0.6;
+            opacity: 0.5;
             top: 0;
             
          }
          @media screen and (max-width:568px) {
             width: 95%;
-            height: 30vh;
+            height: 70vh;
             background-size: 100% 100%;
        }
          h2{
             font-size: 3rem;
             color: rgb(229, 236, 238);
-            background-color: #E23744;
+            border-radius: 5px;
+            padding: 0.2rem 4rem;
+            z-index: 2;
+            text-transform: uppercase;
+            color: #080808;
+
+            @media screen and (max-width:568px) {
+                 font-size: 1.8rem;
+               
+              
+            }
+         }
+         h3{
+            font-size: 1.6rem;
+            color: rgb(229, 236, 238);
             border-radius: 5px;
             padding: 0.2rem 4rem;
             z-index: 2;
             text-transform: uppercase; 
+            color: #0a0a0a;
+           
             @media screen and (max-width:568px) {
-                 font-size: 1.6rem;
+                 font-size: 1rem;
+                 
             }
          }
     }
@@ -49,19 +68,13 @@
         gap: 1.2rem;
         // background-color: rgb(237, 239, 239);
         backdrop-filter: blur(15px);
-        position: absolute;
-        width: 50%;
-        top: 50%;
-        left: 25%;
         border-radius: 5px;
         padding: 1rem;
         background-color: rgba(225, 159, 105, 0.207);
-
+        z-index: 2;
+        width: 60%;
         @media screen and (max-width:568px) {
             width: 90%;
-            left: 5%;
-            top: 32%;
-            width: 95;
        }
         .input-area{
             width: 80%;
@@ -79,8 +92,10 @@
         .btn-container{
             width: 80%;
             margin: 0 auto;
+            display: flex;
+            justify-content: center;
             button{
-                width: 30%;
+                width: 50%;
                 padding: 0.4rem 0;
                 outline: none;
                 border: none;

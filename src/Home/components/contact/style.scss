@@ -39,12 +39,14 @@
             padding: 0.2rem 4rem;
             z-index: 2;
             text-transform: uppercase;
-            color: #080808;
+        
+            color: #ffffff;
+            background-color: #E23744;
 
             @media screen and (max-width:568px) {
-                 font-size: 1.8rem;
-               
-              
+                 font-size: 1.7rem;
+                 width: 95%;
+                 border-radius: 5px;
             }
          }
          h3{
@@ -54,10 +56,11 @@
             padding: 0.2rem 4rem;
             z-index: 2;
             text-transform: uppercase; 
-            color: #0a0a0a;
+            color: #ffffff;
+            background-color: #E23744;
            
             @media screen and (max-width:568px) {
-                 font-size: 1rem;
+                 font-size: 1.2rem;
                  
             }
          }

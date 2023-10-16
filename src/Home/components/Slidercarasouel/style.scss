@@ -6,7 +6,7 @@
     flex-direction: column;
     justify-content: center;
     @media screen and (max-width:768px) {
-        min-height: 75vh;
+        min-height: 90vh;
         // padding: 2rem 0;
      }
     .slider-container{
@@ -21,6 +21,7 @@
                   width: 100%;
                   order: 2;
                   margin-top: 1rem;
+                  padding: rem 0;
               }
               h3{
                 font-size: 3.8vw;
@@ -124,6 +125,7 @@
             width: 40%;
             height: 100%;
             order: 1;
+            
             @media screen and (max-width:768px) {
                 width: 100%;
             }
